@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Minecraft 装置勢向けの計算ツール集。ガーディアン湧き座標、湧き範囲、落下ダメージなどをブラウザで即座に計算。" />
     <title>MC Tools - Minecraft 装置勢ツール集</title>
-    <script type="module" crossorigin src="/mctools/assets/index-DgOOCWEr.js"></script>
+    <script>
+      // GitHub Pages SPA support: restore path from 404.html redirect
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/mctools/assets/index-CtMRVyT4.js"></script>
     <link rel="stylesheet" crossorigin href="/mctools/assets/index-NIh3k3S4.css">
   </head>
   <body>
